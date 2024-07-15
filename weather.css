@@ -1,0 +1,107 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #732121; 
+}
+
+header,
+main,
+footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+header{
+    background: rgb(127, 196, 226);
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #55bdf2;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #weather-data {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #992323;
+    border: 1px solid #c05555;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add margin top to separate from search button */
+  }
+
+/* .search-box {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    padding: 20px; 
+    background-color: #30691f; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} */
+
+#city-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px; 
+}
+
+#search-btn {
+    background-color: #b97e20;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+#search-btn:hover {
+    background-color: #ae2936; 
+}
+
+#weather-data {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+#weather-data h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#weather-data p {
+    margin-bottom: 10px;
+}
